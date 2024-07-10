@@ -21,18 +21,18 @@ class MotorControl:
         MotorControl(ArduinoX* arduinoX, int motorID, int encoderID);
 
         void setMotorID(int motorID);
-        int getMotorID(); const
+        int getMotorID();
 
         void setGearBoxRatio(double gearBoxRatio);
-        double getGearBoxRatio(); const
+        double getGearBoxRatio();
 
         void setEncoderTickPerTurn(double encoderTickPerTurn);
-        double getEncoderTickPerTurn(); const
+        double getEncoderTickPerTurn();
 
         void setEncoderConversionRatio(double convertionRatio);
-        double getEncoderConversionRatio(); const
+        double getEncoderConversionRatio();
 
-        double meansurementFunction();
+        double measurementFunction();
         void commandFunction(double command);
 
         static double wheelRatio(double diameter);
