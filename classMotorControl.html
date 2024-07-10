@@ -93,6 +93,10 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="separator:ad1c151e663c6ed794921128bccf08be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef32ad24b81c9834c8305e296d7b3efb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#aef32ad24b81c9834c8305e296d7b3efb">getMotorID</a> ()</td></tr>
 <tr class="separator:aef32ad24b81c9834c8305e296d7b3efb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dc7043322854c4a21e2110556cc9aac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#a9dc7043322854c4a21e2110556cc9aac">setEncoderID</a> (int encoderID)</td></tr>
+<tr class="separator:a9dc7043322854c4a21e2110556cc9aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad32f94230c4cc2a5130096446c7a3dbc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#ad32f94230c4cc2a5130096446c7a3dbc">getEncoderID</a> ()</td></tr>
+<tr class="separator:ad32f94230c4cc2a5130096446c7a3dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac61b3851b77068a037b667793da0bfef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#ac61b3851b77068a037b667793da0bfef">setGearBoxRatio</a> (double gearBoxRatio)</td></tr>
 <tr class="separator:ac61b3851b77068a037b667793da0bfef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abfc226cd4543c904dc03e841fd0b4e73"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#abfc226cd4543c904dc03e841fd0b4e73">getGearBoxRatio</a> ()</td></tr>
@@ -101,10 +105,10 @@ Fonctions membres publiques</h2></td></tr>
 <tr class="separator:af20ccec84bdceb13b0c2577f22c2f996"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01f89ee7c23f224f09a5e3d86c82d9da"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#a01f89ee7c23f224f09a5e3d86c82d9da">getEncoderTickPerTurn</a> ()</td></tr>
 <tr class="separator:a01f89ee7c23f224f09a5e3d86c82d9da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87ffc6ce32b3737c5883b922f8e85ad0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#a87ffc6ce32b3737c5883b922f8e85ad0">setEncoderConversionRatio</a> (double convertionRatio)</td></tr>
-<tr class="separator:a87ffc6ce32b3737c5883b922f8e85ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c36ef1a40d3c62363723503cf0d1855"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#a6c36ef1a40d3c62363723503cf0d1855">getEncoderConversionRatio</a> ()</td></tr>
-<tr class="separator:a6c36ef1a40d3c62363723503cf0d1855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae51685cd826ef934d2c53cc2ffb70eb5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#ae51685cd826ef934d2c53cc2ffb70eb5">setConversionRatio</a> (double convertionRatio)</td></tr>
+<tr class="separator:ae51685cd826ef934d2c53cc2ffb70eb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778d7da01680f52bc9d6b3d9cbfa60d6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#a778d7da01680f52bc9d6b3d9cbfa60d6">getConversionRatio</a> ()</td></tr>
+<tr class="separator:a778d7da01680f52bc9d6b3d9cbfa60d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57558c8e994060a227b2ada7ad6c42b6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#a57558c8e994060a227b2ada7ad6c42b6">measurementFunction</a> ()</td></tr>
 <tr class="separator:a57558c8e994060a227b2ada7ad6c42b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1d92f959f8c19e0dfaada00b225b135"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMotorControl.html#ac1d92f959f8c19e0dfaada00b225b135">commandFunction</a> (double command)</td></tr>
@@ -338,14 +342,31 @@ Fonctions membres publiques statiques</h2></td></tr>
 
 </div>
 </div>
-<a id="a6c36ef1a40d3c62363723503cf0d1855" name="a6c36ef1a40d3c62363723503cf0d1855"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c36ef1a40d3c62363723503cf0d1855">&#9670;&#160;</a></span>getEncoderConversionRatio()</h2>
+<a id="a778d7da01680f52bc9d6b3d9cbfa60d6" name="a778d7da01680f52bc9d6b3d9cbfa60d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a778d7da01680f52bc9d6b3d9cbfa60d6">&#9670;&#160;</a></span>getConversionRatio()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">double MotorControl::getEncoderConversionRatio </td>
+          <td class="memname">double MotorControl::getConversionRatio </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad32f94230c4cc2a5130096446c7a3dbc" name="ad32f94230c4cc2a5130096446c7a3dbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad32f94230c4cc2a5130096446c7a3dbc">&#9670;&#160;</a></span>getEncoderID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MotorControl::getEncoderID </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -448,17 +469,35 @@ Fonctions membres publiques statiques</h2></td></tr>
 
 </div>
 </div>
-<a id="a87ffc6ce32b3737c5883b922f8e85ad0" name="a87ffc6ce32b3737c5883b922f8e85ad0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87ffc6ce32b3737c5883b922f8e85ad0">&#9670;&#160;</a></span>setEncoderConversionRatio()</h2>
+<a id="ae51685cd826ef934d2c53cc2ffb70eb5" name="ae51685cd826ef934d2c53cc2ffb70eb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae51685cd826ef934d2c53cc2ffb70eb5">&#9670;&#160;</a></span>setConversionRatio()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MotorControl::setEncoderConversionRatio </td>
+          <td class="memname">void MotorControl::setConversionRatio </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>convertionRatio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9dc7043322854c4a21e2110556cc9aac" name="a9dc7043322854c4a21e2110556cc9aac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dc7043322854c4a21e2110556cc9aac">&#9670;&#160;</a></span>setEncoderID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MotorControl::setEncoderID </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>encoderID</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
