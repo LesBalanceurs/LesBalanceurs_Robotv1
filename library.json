@@ -11,6 +11,7 @@
     ],
     "version": "1.0.0",
     "dependencies": {
-      "LibS3GRO": "https://github.com/UdeS-GRO/LibS3GRO"
+      "LibS3GRO": "https://github.com/UdeS-GRO/LibS3GRO",
+      "MathX": "https://github.com/Inneauv8/MathX"
     }
   }
