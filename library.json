@@ -11,6 +11,6 @@
     ],
     "version": "1.0.0",
     "dependencies": {
-      "LibRobUS": "https://github.com/UdeS-GRO/LibRobUS",
+      "LibS3GRO": "https://github.com/UdeS-GRO/LibS3GRO"
     }
   }
