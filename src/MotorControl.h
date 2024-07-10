@@ -7,12 +7,13 @@ Date de création :
 #ifndef MOTOR_CONTROL_H
 #define MOTOR_CONTROL_H
 #include "ArduinoX/ArduinoX.h"
+#include "mathX.h"
 
 #define DEFAULT_GEAR_BOX_RATIO 1
 #define DEFAULT_ENCODER_TICK_PER_TURN 1
 #define DEFAULT_CONVERTION_RATIO 1
 
-class MotorControl:
+class MotorControl
 {
     public:
 	    MotorControl(ArduinoX* arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio);
@@ -23,14 +24,17 @@ class MotorControl:
         void setMotorID(int motorID);
         int getMotorID();
 
+        void setEncoderID(int encoderID);
+        int getEncoderID();
+
         void setGearBoxRatio(double gearBoxRatio);
         double getGearBoxRatio();
 
         void setEncoderTickPerTurn(double encoderTickPerTurn);
         double getEncoderTickPerTurn();
 
-        void setEncoderConversionRatio(double convertionRatio);
-        double getEncoderConversionRatio();
+        void setConversionRatio(double convertionRatio);
+        double getConversionRatio();
 
         double measurementFunction();
         void commandFunction(double command);
