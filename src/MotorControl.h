@@ -1,9 +1,10 @@
 /****************************************************************************************
 Nom du fichier : MotorControl.h
-Auteur :                   
-Date de création : 
+Auteur : Mathieu Durand      
+Date de création : 11 juillet 2024
   
 ****************************************************************************************/
+
 #ifndef MOTOR_CONTROL_H
 #define MOTOR_CONTROL_H
 #include "ArduinoX/ArduinoX.h"
