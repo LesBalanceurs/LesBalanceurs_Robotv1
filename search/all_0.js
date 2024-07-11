@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['commandfunction_0',['commandFunction',['../classMotorControl.html#ac1d92f959f8c19e0dfaada00b225b135',1,'MotorControl']]]
+  ['commandfunction_0',['commandFunction',['../classMotorController.html#ad0d45f1fcb697b027eedc52fec9d7813',1,'MotorController']]]
 ];

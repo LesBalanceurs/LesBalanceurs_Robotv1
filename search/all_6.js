@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['turnratio_0',['turnRatio',['../classMotorControl.html#a5783da15434ea45da2fe2de3df6622a1',1,'MotorControl']]]
+  ['turnratio_0',['turnRatio',['../classMotorController.html#adbd4b3027728b6ecf5319ef67056844d',1,'MotorController']]]
 ];

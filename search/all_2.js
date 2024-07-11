@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['getconversionratio_0',['getConversionRatio',['../classMotorControl.html#a778d7da01680f52bc9d6b3d9cbfa60d6',1,'MotorControl']]],
-  ['getencoderid_1',['getEncoderID',['../classMotorControl.html#ad32f94230c4cc2a5130096446c7a3dbc',1,'MotorControl']]],
-  ['getencodertickperturn_2',['getEncoderTickPerTurn',['../classMotorControl.html#a01f89ee7c23f224f09a5e3d86c82d9da',1,'MotorControl']]],
-  ['getgearboxratio_3',['getGearBoxRatio',['../classMotorControl.html#abfc226cd4543c904dc03e841fd0b4e73',1,'MotorControl']]],
-  ['getmotorid_4',['getMotorID',['../classMotorControl.html#aef32ad24b81c9834c8305e296d7b3efb',1,'MotorControl']]]
+  ['getconversionratio_0',['getConversionRatio',['../classMotorController.html#a5f9690291f92af6fab6a2364bb094aed',1,'MotorController']]],
+  ['getencoderid_1',['getEncoderID',['../classMotorController.html#adb097089bf50b02943eb4e368ff8ffe1',1,'MotorController']]],
+  ['getencodertickperturn_2',['getEncoderTickPerTurn',['../classMotorController.html#ae338101aa291c0630a5df1e7fd747a2a',1,'MotorController']]],
+  ['getgearboxratio_3',['getGearBoxRatio',['../classMotorController.html#af666ec101f33acede64ddeb1cc71a192',1,'MotorController']]],
+  ['getlayer_4',['getLayer',['../classMotorController.html#a3b3c0e648dac268bfa707ed14502922b',1,'MotorController']]],
+  ['getmotorid_5',['getMotorID',['../classMotorController.html#a740dfa6956eb74c08405a73b2f858061',1,'MotorController']]]
 ];

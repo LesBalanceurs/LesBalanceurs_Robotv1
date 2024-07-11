@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wheelratio_0',['wheelRatio',['../classMotorControl.html#aa1d9440d28a5efdeabc4124ed181b077',1,'MotorControl']]]
+  ['wheelratio_0',['wheelRatio',['../classMotorController.html#a0450e7917531c71972552a25a031602a',1,'MotorController']]]
 ];

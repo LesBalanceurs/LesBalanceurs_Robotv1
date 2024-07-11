@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['degreeratio_0',['degreeRatio',['../classMotorControl.html#a9407d238ac189010b219457cb3dbdfea',1,'MotorControl']]]
+  ['degreesratio_0',['degreesRatio',['../classMotorController.html#a10800bdbb28e8febb5359e50943c1dfa',1,'MotorController']]]
 ];
