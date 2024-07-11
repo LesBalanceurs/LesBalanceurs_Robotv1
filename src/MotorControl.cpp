@@ -24,7 +24,7 @@ MotorControl::MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int 
 MotorControl::MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID): MotorControl(arduinoX, layer, motorID, encoderID, DEFAULT_ENCODER_TICK_PER_TURN) {}
 
 
-MotorControl::MotorControl::MotorControl(ArduinoX* arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio): MotorControl(arduinoX, DEFAULT_LAYER, motorID, encoderID, encoderTickPerTurn, convertionRatio) {}
+MotorControl::MotorControl(ArduinoX* arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio): MotorControl(arduinoX, DEFAULT_LAYER, motorID, encoderID, encoderTickPerTurn, convertionRatio) {}
 MotorControl::MotorControl(ArduinoX* arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn): MotorControl(arduinoX, DEFAULT_LAYER, motorID, encoderID, encoderTickPerTurn) {}
 MotorControl::MotorControl(ArduinoX* arduinoX, int motorID, int encoderID, double encoderTickPerTurn): MotorControl(arduinoX, DEFAULT_LAYER, motorID, encoderID) {}
 MotorControl::MotorControl(ArduinoX* arduinoX, int motorID, int encoderID): MotorControl(arduinoX, DEFAULT_LAYER, motorID, encoderID) {}
@@ -75,7 +75,7 @@ double MotorControl::measurementFunction() {
 	return arduinoX->readEncoder(getEncoderID()) / getFirstConversionStage();
 }
 void MotorControl::commandFunction(double command) {
-	arduinoX->setMotorPWM(getMotorID(), clamp(command / getLastConversionStage(), -1.0, 1.0));
+	arduinoX->setMotorPWM(getMotorID(), constrain(command / getLastConversionStage(), -1.0, 1.0));
 }
 
 double MotorControl::wheelRatio(double diameter) {
