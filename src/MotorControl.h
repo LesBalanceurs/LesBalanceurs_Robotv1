@@ -203,10 +203,10 @@ class MotorControl
         static double wheelRatio(double diameter);
 
         /**
-         * @brief Calculate the degree ratio.
-         * @return Degree ratio.
+         * @brief Calculate the degrees ratio.
+         * @return Degrees ratio.
          */
-        static double degreeRatio();
+        static double degreesRatio();
 
         /**
          * @brief Calculate the radians ratio.

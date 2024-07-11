@@ -81,7 +81,7 @@ void MotorControl::commandFunction(double command) {
 double MotorControl::wheelRatio(double diameter) {
 	return PI * diameter;
 }
-double MotorControl::degreeRatio() {
+double MotorControl::degreesRatio() {
 	return 360.0;
 }
 double MotorControl::radiansRatio() {
