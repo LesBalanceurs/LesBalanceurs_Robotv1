@@ -1,12 +1,12 @@
 /****************************************************************************************
-Nom du fichier : MotorControl.h
+Nom du fichier : MotorControllerler.h
 Auteur : Mathieu Durand      
 Date de création : 11 juillet 2024
 
 ****************************************************************************************/
 
-#ifndef MOTOR_CONTROL_H
-#define MOTOR_CONTROL_H
+#ifndef MOTOR_CONTROLLER_H
+#define MOTOR_CONTROLLER_H
 
 #include "ArduinoX/ArduinoX.h"
 #include "PID/PID.h"
@@ -18,10 +18,10 @@ Date de création : 11 juillet 2024
 #define DEFAULT_LAYER MOTOR
 
 /**
- * @class MotorControl
+ * @class MotorController
  * @brief Class for controlling a motor using an Arduino and a PID controller.
  */
-class MotorControl
+class MotorController
 {
     public:
         /**
@@ -34,7 +34,7 @@ class MotorControl
          * @param encoderTickPerTurn Encoder ticks per turn.
          * @param convertionRatio Conversion ratio.
          */
-        MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio);
+        MotorController(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio);
         
         /**
          * @brief Constructor without conversion ratio.
@@ -45,7 +45,7 @@ class MotorControl
          * @param gearBoxRatio Gearbox ratio.
          * @param encoderTickPerTurn Encoder ticks per turn.
          */
-        MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn);
+        MotorController(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn);
         
         /**
          * @brief Constructor with default gearbox ratio.
@@ -55,7 +55,7 @@ class MotorControl
          * @param encoderID ID of the encoder.
          * @param encoderTickPerTurn Encoder ticks per turn.
          */
-        MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double encoderTickPerTurn);
+        MotorController(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double encoderTickPerTurn);
         
         /**
          * @brief Constructor with default gearbox ratio and encoder ticks per turn.
@@ -64,7 +64,7 @@ class MotorControl
          * @param motorID ID of the motor.
          * @param encoderID ID of the encoder.
          */
-        MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID);
+        MotorController(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID);
 
         /**
          * @brief Constructor with all parameters except layer.
@@ -75,7 +75,7 @@ class MotorControl
          * @param encoderTickPerTurn Encoder ticks per turn.
          * @param convertionRatio Conversion ratio.
          */
-        MotorControl(ArduinoX* arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio);
+        MotorController(ArduinoX* arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio);
         
         /**
          * @brief Constructor without conversion ratio and layer.
@@ -85,7 +85,7 @@ class MotorControl
          * @param gearBoxRatio Gearbox ratio.
          * @param encoderTickPerTurn Encoder ticks per turn.
          */
-        MotorControl(ArduinoX* arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn);
+        MotorController(ArduinoX* arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn);
         
         /**
          * @brief Constructor with default gearbox ratio and without layer.
@@ -94,7 +94,7 @@ class MotorControl
          * @param encoderID ID of the encoder.
          * @param encoderTickPerTurn Encoder ticks per turn.
          */
-        MotorControl(ArduinoX* arduinoX, int motorID, int encoderID, double encoderTickPerTurn);
+        MotorController(ArduinoX* arduinoX, int motorID, int encoderID, double encoderTickPerTurn);
         
         /**
          * @brief Constructor with default gearbox ratio, encoder ticks per turn, and without layer.
@@ -102,7 +102,7 @@ class MotorControl
          * @param motorID ID of the motor.
          * @param encoderID ID of the encoder.
          */
-        MotorControl(ArduinoX* arduinoX, int motorID, int encoderID);
+        MotorController(ArduinoX* arduinoX, int motorID, int encoderID);
 
         /**
          * @brief Set the motor ID.
@@ -249,4 +249,4 @@ class MotorControl
         ArduinoX* arduinoX;                /**< Pointer to ArduinoX instance. */
 };
 
-#endif // MOTOR_CONTROL_H
+#endif // MOTOR_CONTROLLER_H
