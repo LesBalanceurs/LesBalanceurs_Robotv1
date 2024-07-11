@@ -31,13 +31,13 @@ ArduinoX arduinoX;
 
 PID positionPID;
 // TODO: Get the real tick per turn and wheel diameter
-MotorController positionMotorController(&arduinoX, 0, 0, 50, 25, MotorController::wheelRatio(5));
+MotorController positionMotorController(&arduinoX, DIRECT, 0, 0, 50, 25, MotorController::wheelRatio(5));
 double positionMeasurement() {return positionMotorController.measurementFunction();}
 void positionCommand(double command) {positionMotorController.commandFunction(command);}
 
 PID armPID;
 // TODO: Get the real tick per turn, gearbox ratio and discuss the unit of control (Turns, degrees or radians) for now degrees
-MotorController armMotorController(&arduinoX, 0, 0, 50, 25, MotorController::degreesRatio());
+MotorController armMotorController(&arduinoX, DIRECT, 0, 0, 50, 25, MotorController::degreesRatio());
 double armMeasurement() {return armMotorController.measurementFunction();}
 void armCommand(double command) {armMotorController.commandFunction(command);}
 
