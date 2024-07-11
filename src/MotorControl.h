@@ -8,7 +8,6 @@ Date de création :
 #define MOTOR_CONTROL_H
 #include "ArduinoX/ArduinoX.h"
 #include "PID/PID.h"
-#include "mathX.h"
 #include "PidLayer.h"
 
 #define DEFAULT_GEAR_BOX_RATIO 1
@@ -19,9 +18,6 @@ Date de création :
 class MotorControl
 {
     public:
-        typedef void(MotorControl::*CommandFunction)(double);
-        typedef double(MotorControl::*MeasureFunction)();
-
 	    MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio);
         MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn);
         MotorControl(ArduinoX* arduinoX, PidLayer layer, int motorID, int encoderID, double encoderTickPerTurn);
