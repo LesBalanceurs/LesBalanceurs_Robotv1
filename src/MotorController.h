@@ -9,7 +9,6 @@ Date de création : 11 juillet 2024
 #define MOTOR_CONTROLLER_H
 
 #include "ArduinoX/ArduinoX.h"
-#include "PID/PID.h"
 #include "PidLayer.h"
 
 #define DEFAULT_GEAR_BOX_RATIO 1

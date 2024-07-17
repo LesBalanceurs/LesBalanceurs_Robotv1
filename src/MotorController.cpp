@@ -75,6 +75,11 @@ double MotorController::measurementFunction() {
 	return arduinoX->readEncoder(getEncoderID()) / getFirstConversionStage();
 }
 void MotorController::commandFunction(double command) {
+	Serial.print("Command: ");
+	Serial.print(getMotorID());
+	Serial.print(": ");
+	Serial.println(constrain(command / getLastConversionStage(), -1.0, 1.0));
+	
 	arduinoX->setMotorPWM(getMotorID(), constrain(command / getLastConversionStage(), -1.0, 1.0));
 }
 
