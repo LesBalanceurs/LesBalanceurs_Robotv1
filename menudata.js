@@ -24,9 +24,26 @@
 */
 var menudata={children:[
 {text:"Page principale",url:"index.html"},
+{text:"Espaces de nommage",url:"namespaces.html",children:[
+{text:"Liste des espaces de nommage",url:"namespaces.html"}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Liste des classes",url:"annotated.html"},
 {text:"Index des classes",url:"classes.html"},
 {text:"Membres de classe",url:"functions.html",children:[
-{text:"Tout",url:"functions.html"},
-{text:"Fonctions",url:"functions_func.html"}]}]}]}
+{text:"Tout",url:"functions.html",children:[
+{text:"c",url:"functions.html#index_c"},
+{text:"d",url:"functions.html#index_d"},
+{text:"g",url:"functions.html#index_g"},
+{text:"i",url:"functions.html#index_i"},
+{text:"k",url:"functions.html#index_k"},
+{text:"m",url:"functions.html#index_m"},
+{text:"o",url:"functions.html#index_o"},
+{text:"p",url:"functions.html#index_p"},
+{text:"r",url:"functions.html#index_r"},
+{text:"s",url:"functions.html#index_s"},
+{text:"t",url:"functions.html#index_t"},
+{text:"u",url:"functions.html#index_u"},
+{text:"v",url:"functions.html#index_v"},
+{text:"w",url:"functions.html#index_w"}]},
+{text:"Fonctions",url:"functions_func.html"},
+{text:"Variables",url:"functions_vars.html"}]}]}]}
