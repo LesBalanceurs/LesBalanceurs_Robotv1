@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['commandfunction_0',['commandFunction',['../classMotorController.html#ad0d45f1fcb697b027eedc52fec9d7813',1,'MotorController']]],
-  ['create_1',['create',['../structPIDI_1_1valeursPID.html#a9d06562e08bed6df5ed778b43ad63deb',1,'PIDI::valeursPID']]]
+  ['absolutechangesummator_0',['AbsoluteChangeSummator',['../classAbsoluteChangeSummator.html#a4b01672222097ffc2fbac71d7ae17113',1,'AbsoluteChangeSummator::AbsoluteChangeSummator(N initialValue)'],['../classAbsoluteChangeSummator.html#a231600d514279aeb5664847b999e33d1',1,'AbsoluteChangeSummator::AbsoluteChangeSummator()']]],
+  ['absoluteintegrator_1',['AbsoluteIntegrator',['../classAbsoluteIntegrator.html#a65e0af88c6890601eb9fef55c643bfe7',1,'AbsoluteIntegrator::AbsoluteIntegrator(double initialIntegral)'],['../classAbsoluteIntegrator.html#a258315084c2b0f6016b26e2a6bcbd5b3',1,'AbsoluteIntegrator::AbsoluteIntegrator()']]]
 ];
