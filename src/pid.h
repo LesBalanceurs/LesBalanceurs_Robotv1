@@ -6,7 +6,7 @@
 
 namespace PIDI {
         struct valeursPID {
-        valeursPID() : Kp(0.0), Ki(0.0), Kd(0.0), initialTime(0), Sp(0.0), Pv(0.0), integral(0.0), previous_error(0.0), Out(0.0), Min(-INFINITY), Max(INFINITY) {}
+        valeursPID() : Kp(0.0), Ki(0.0), Kd(0.0), initialTime(0), Sp(0.0), Pv(0.0), integral(0.0), previous_error(0.0), previous_derivative(0.0), Out(0.0), Min(-INFINITY), Max(INFINITY) {}
         float Kp;           // Constante proportionnelle
         float Ki;           // Constante intégrale
         float Kd;           // Constante dérivée
@@ -15,6 +15,7 @@ namespace PIDI {
         float Pv;           // Process Value (Valeur réelle)
         float integral;     // Valeur intégrale
         float previous_error;  // Previous error value
+        float previous_derivative;
         float Out;          // Valeur de sortie
         float Min;
         float Max;
@@ -75,6 +76,7 @@ namespace PIDI {
 
             // Store the current error for the next iteration
             previous_error = error;
+            previous_derivative = derivative;
 
             return Out;
         }

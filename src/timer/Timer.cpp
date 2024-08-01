@@ -28,7 +28,7 @@ double Timer::getTimeLeftSeconds() {
 unsigned long Timer::getTimeLeftMilliseconds() {
     unsigned long timeLeft = this->targetMillis - millis();
 
-    if (timeLeft <= 0) {
+    if (millis() >= this->targetMillis) {
         return 0;
     }
 
