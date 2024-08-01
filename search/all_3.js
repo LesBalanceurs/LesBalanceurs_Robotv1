@@ -1,19 +1,6 @@
 var searchData=
 [
-  ['getconversionratio_0',['getConversionRatio',['../classMotorController.html#a5f9690291f92af6fab6a2364bb094aed',1,'MotorController']]],
-  ['getdeltatimeprovider_1',['getDeltaTimeProvider',['../classIntegrator.html#a980a228179356095f0e2e439083e9e4b',1,'Integrator']]],
-  ['getencoderid_2',['getEncoderID',['../classMotorController.html#adb097089bf50b02943eb4e368ff8ffe1',1,'MotorController']]],
-  ['getencodertickperturn_3',['getEncoderTickPerTurn',['../classMotorController.html#ae338101aa291c0630a5df1e7fd747a2a',1,'MotorController']]],
-  ['getgearboxratio_4',['getGearBoxRatio',['../classMotorController.html#af666ec101f33acede64ddeb1cc71a192',1,'MotorController']]],
-  ['gethours_5',['getHours',['../classSafeMicroDeltaTime.html#abd33e46f85da301dbf072214793435d5',1,'SafeMicroDeltaTime']]],
-  ['getintegral_6',['getIntegral',['../classIntegrator.html#a20e85f1f0f94fac676fcd91828223646',1,'Integrator']]],
-  ['getlayer_7',['getLayer',['../classMotorController.html#a3b3c0e648dac268bfa707ed14502922b',1,'MotorController']]],
-  ['getmicroseconds_8',['getMicroseconds',['../classSafeMicroDeltaTime.html#a71a6467dee5d0c2b89a2ae57bb272896',1,'SafeMicroDeltaTime']]],
-  ['getmilliseconds_9',['getMilliseconds',['../classSafeMicroDeltaTime.html#a067e878f351e7d501c6bd21d2ea9e445',1,'SafeMicroDeltaTime']]],
-  ['getminutes_10',['getMinutes',['../classSafeMicroDeltaTime.html#a419b32c6479ea7db7602a29548f967ec',1,'SafeMicroDeltaTime']]],
-  ['getmotorid_11',['getMotorID',['../classMotorController.html#a740dfa6956eb74c08405a73b2f858061',1,'MotorController']]],
-  ['getseconds_12',['getSeconds',['../classSafeMicroDeltaTime.html#a142ab2ca55c39a1042b1f931cc6114fc',1,'SafeMicroDeltaTime']]],
-  ['getsum_13',['getSum',['../classChangeSummator.html#a688f852f1894dc863a5cb64db8e676ca',1,'ChangeSummator']]],
-  ['gettimeleftmilliseconds_14',['getTimeLeftMilliseconds',['../classTimer.html#a39a653ae8acc8d7b8b0673eaa2cfd258',1,'Timer']]],
-  ['gettimeleftseconds_15',['getTimeLeftSeconds',['../classTimer.html#a26af8b0a816034d4cce4ff235aa14c63',1,'Timer']]]
+  ['definecommand_0',['defineCommand',['../classGPSP.html#a1fe8b357a3d72435a811092decba8a18',1,'GPSP']]],
+  ['degreesratio_1',['degreesRatio',['../classMotorController.html#a10800bdbb28e8febb5359e50943c1dfa',1,'MotorController']]],
+  ['description_2',['description',['../structCommand.html#a4c2ce6d4fa23b96f04bfc5421b338f10',1,'Command']]]
 ];

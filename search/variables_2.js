@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['max_0',['Max',['../structPIDI_1_1valeursPID.html#a8abaab027507d451dd510d6adbb15c97',1,'PIDI::valeursPID']]],
-  ['min_1',['Min',['../structPIDI_1_1valeursPID.html#a576b971892fdc0438b70ef922a80a5f9',1,'PIDI::valeursPID']]]
+  ['initialtime_0',['initialTime',['../structPIDI_1_1valeursPID.html#a156c60479f8e235604f98f40f2b4687c',1,'PIDI::valeursPID']]],
+  ['integral_1',['integral',['../structPIDI_1_1valeursPID.html#a7f76a8f9b7a49ba7b6203ec30ae5602c',1,'PIDI::valeursPID']]]
 ];

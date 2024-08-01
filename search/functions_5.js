@@ -1,5 +1,22 @@
 var searchData=
 [
-  ['measurementfunction_0',['measurementFunction',['../classMotorController.html#a6b4186d74567d170e85285e6a359e7d6',1,'MotorController']]],
-  ['motorcontroller_1',['MotorController',['../classMotorController.html#a8095159515afa7dcde4a0844ff6b4771',1,'MotorController::MotorController(ArduinoX *arduinoX, PidLayer layer, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio)'],['../classMotorController.html#a42ce67292248616db5532edabbe0125a',1,'MotorController::MotorController(ArduinoX *arduinoX, PidLayer layer, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn)'],['../classMotorController.html#a5e9d284fadf7bb55700436d105c7ade2',1,'MotorController::MotorController(ArduinoX *arduinoX, PidLayer layer, int motorID, int encoderID, double encoderTickPerTurn)'],['../classMotorController.html#aca58f77b09fc962408ad56d25a454f76',1,'MotorController::MotorController(ArduinoX *arduinoX, PidLayer layer, int motorID, int encoderID)'],['../classMotorController.html#a770ae7c077f15d6129a19d37d4602c9f',1,'MotorController::MotorController(ArduinoX *arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn, double convertionRatio)'],['../classMotorController.html#af8fcf47271d467d9c2d737ace8fb40d9',1,'MotorController::MotorController(ArduinoX *arduinoX, int motorID, int encoderID, double gearBoxRatio, double encoderTickPerTurn)'],['../classMotorController.html#a9c2c318b0170c4469fed3d191ba5772e',1,'MotorController::MotorController(ArduinoX *arduinoX, int motorID, int encoderID, double encoderTickPerTurn)'],['../classMotorController.html#abb8cbc0d3f272285a813345314360c5a',1,'MotorController::MotorController(ArduinoX *arduinoX, int motorID, int encoderID)']]]
+  ['get_0',['get',['../classQList.html#a322921c0e55d82b19a062605611a826c',1,'QList']]],
+  ['getconversionratio_1',['getConversionRatio',['../classMotorController.html#a5f9690291f92af6fab6a2364bb094aed',1,'MotorController']]],
+  ['getdeltatimeprovider_2',['getDeltaTimeProvider',['../classIntegrator.html#a980a228179356095f0e2e439083e9e4b',1,'Integrator']]],
+  ['getencoderid_3',['getEncoderID',['../classMotorController.html#adb097089bf50b02943eb4e368ff8ffe1',1,'MotorController']]],
+  ['getencodertickperturn_4',['getEncoderTickPerTurn',['../classMotorController.html#ae338101aa291c0630a5df1e7fd747a2a',1,'MotorController']]],
+  ['getgearboxratio_5',['getGearBoxRatio',['../classMotorController.html#af666ec101f33acede64ddeb1cc71a192',1,'MotorController']]],
+  ['gethours_6',['getHours',['../classSafeMicroDeltaTime.html#abd33e46f85da301dbf072214793435d5',1,'SafeMicroDeltaTime']]],
+  ['getintegral_7',['getIntegral',['../classIntegrator.html#a20e85f1f0f94fac676fcd91828223646',1,'Integrator']]],
+  ['getlayer_8',['getLayer',['../classMotorController.html#a3b3c0e648dac268bfa707ed14502922b',1,'MotorController']]],
+  ['getmicroseconds_9',['getMicroseconds',['../classSafeMicroDeltaTime.html#a71a6467dee5d0c2b89a2ae57bb272896',1,'SafeMicroDeltaTime']]],
+  ['getmilliseconds_10',['getMilliseconds',['../classSafeMicroDeltaTime.html#a067e878f351e7d501c6bd21d2ea9e445',1,'SafeMicroDeltaTime']]],
+  ['getminutes_11',['getMinutes',['../classSafeMicroDeltaTime.html#a419b32c6479ea7db7602a29548f967ec',1,'SafeMicroDeltaTime']]],
+  ['getmotorid_12',['getMotorID',['../classMotorController.html#a740dfa6956eb74c08405a73b2f858061',1,'MotorController']]],
+  ['getseconds_13',['getSeconds',['../classSafeMicroDeltaTime.html#a142ab2ca55c39a1042b1f931cc6114fc',1,'SafeMicroDeltaTime']]],
+  ['getstream_14',['getStream',['../classGPSP.html#a21bacc361094ec4cd1107dfa1ddd187f',1,'GPSP']]],
+  ['getsum_15',['getSum',['../classChangeSummator.html#a688f852f1894dc863a5cb64db8e676ca',1,'ChangeSummator']]],
+  ['gettimeleftmilliseconds_16',['getTimeLeftMilliseconds',['../classTimer.html#a39a653ae8acc8d7b8b0673eaa2cfd258',1,'Timer']]],
+  ['gettimeleftseconds_17',['getTimeLeftSeconds',['../classTimer.html#a26af8b0a816034d4cce4ff235aa14c63',1,'Timer']]],
+  ['gpsp_18',['GPSP',['../classGPSP.html#a8fa762e55af59bb2ae6a0582d2698931',1,'GPSP']]]
 ];

@@ -1,6 +1,22 @@
 var searchData=
 [
-  ['kd_0',['Kd',['../structPIDI_1_1valeursPID.html#a439220db2168c526fc1cfc3f1ca63e4e',1,'PIDI::valeursPID']]],
-  ['ki_1',['Ki',['../structPIDI_1_1valeursPID.html#aed1b0db0e8338342fef2f18e8fb732ac',1,'PIDI::valeursPID']]],
-  ['kp_2',['Kp',['../structPIDI_1_1valeursPID.html#a085d3a9836c285365497f5d3ff25c7b3',1,'PIDI::valeursPID']]]
+  ['get_0',['get',['../classQList.html#a322921c0e55d82b19a062605611a826c',1,'QList']]],
+  ['getconversionratio_1',['getConversionRatio',['../classMotorController.html#a5f9690291f92af6fab6a2364bb094aed',1,'MotorController']]],
+  ['getdeltatimeprovider_2',['getDeltaTimeProvider',['../classIntegrator.html#a980a228179356095f0e2e439083e9e4b',1,'Integrator']]],
+  ['getencoderid_3',['getEncoderID',['../classMotorController.html#adb097089bf50b02943eb4e368ff8ffe1',1,'MotorController']]],
+  ['getencodertickperturn_4',['getEncoderTickPerTurn',['../classMotorController.html#ae338101aa291c0630a5df1e7fd747a2a',1,'MotorController']]],
+  ['getgearboxratio_5',['getGearBoxRatio',['../classMotorController.html#af666ec101f33acede64ddeb1cc71a192',1,'MotorController']]],
+  ['gethours_6',['getHours',['../classSafeMicroDeltaTime.html#abd33e46f85da301dbf072214793435d5',1,'SafeMicroDeltaTime']]],
+  ['getintegral_7',['getIntegral',['../classIntegrator.html#a20e85f1f0f94fac676fcd91828223646',1,'Integrator']]],
+  ['getlayer_8',['getLayer',['../classMotorController.html#a3b3c0e648dac268bfa707ed14502922b',1,'MotorController']]],
+  ['getmicroseconds_9',['getMicroseconds',['../classSafeMicroDeltaTime.html#a71a6467dee5d0c2b89a2ae57bb272896',1,'SafeMicroDeltaTime']]],
+  ['getmilliseconds_10',['getMilliseconds',['../classSafeMicroDeltaTime.html#a067e878f351e7d501c6bd21d2ea9e445',1,'SafeMicroDeltaTime']]],
+  ['getminutes_11',['getMinutes',['../classSafeMicroDeltaTime.html#a419b32c6479ea7db7602a29548f967ec',1,'SafeMicroDeltaTime']]],
+  ['getmotorid_12',['getMotorID',['../classMotorController.html#a740dfa6956eb74c08405a73b2f858061',1,'MotorController']]],
+  ['getseconds_13',['getSeconds',['../classSafeMicroDeltaTime.html#a142ab2ca55c39a1042b1f931cc6114fc',1,'SafeMicroDeltaTime']]],
+  ['getstream_14',['getStream',['../classGPSP.html#a21bacc361094ec4cd1107dfa1ddd187f',1,'GPSP']]],
+  ['getsum_15',['getSum',['../classChangeSummator.html#a688f852f1894dc863a5cb64db8e676ca',1,'ChangeSummator']]],
+  ['gettimeleftmilliseconds_16',['getTimeLeftMilliseconds',['../classTimer.html#a39a653ae8acc8d7b8b0673eaa2cfd258',1,'Timer']]],
+  ['gettimeleftseconds_17',['getTimeLeftSeconds',['../classTimer.html#a26af8b0a816034d4cce4ff235aa14c63',1,'Timer']]],
+  ['gpsp_18',['GPSP',['../classGPSP.html',1,'GPSP'],['../classGPSP.html#a8fa762e55af59bb2ae6a0582d2698931',1,'GPSP::GPSP()']]]
 ];

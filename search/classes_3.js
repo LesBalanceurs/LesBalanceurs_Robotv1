@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['motorcontroller_0',['MotorController',['../classMotorController.html',1,'']]]
+  ['integrator_0',['Integrator',['../classIntegrator.html',1,'']]]
 ];

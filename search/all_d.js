@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['valeurspid_0',['valeursPID',['../structPIDI_1_1valeursPID.html',1,'PIDI::valeursPID'],['../structPIDI_1_1valeursPID.html#a15ec883e898fed82129e8e7e76787936',1,'PIDI::valeursPID::valeursPID()']]],
-  ['value_1',['value',['../classChangeSummator.html#acecd02129cb3ac1fc15b23d3bb7c82ae',1,'ChangeSummator']]]
+  ['qlist_0',['QList',['../classQList.html',1,'QList&lt; T &gt;'],['../classQList.html#a3af24ba1643765bf342cd435bd6723d1',1,'QList::QList()']]],
+  ['qlist_3c_20command_20_3e_1',['QList&lt; Command &gt;',['../classQList.html',1,'']]]
 ];

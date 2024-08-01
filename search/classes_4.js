@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['safemicrodeltatime_0',['SafeMicroDeltaTime',['../classSafeMicroDeltaTime.html',1,'']]]
+  ['motorcontroller_0',['MotorController',['../classMotorController.html',1,'']]]
 ];
